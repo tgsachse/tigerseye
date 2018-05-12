@@ -1,37 +1,20 @@
-# tigerseye scheme for Base16 Builder
+# Tigerseye scheme for Base16 Builder
 # By Tiger Sachse
 scheme: "tigerseye"
 author: "Tiger Sachse (github.com/tgsachse)"
-#base00: "202020" # Background
-#base01: "303030" # Lighter background
-#base02: "404040" # Selection background
-#base03: "fff951" # Comments
-#base04: "ffffff" # Dark foreground
-#base05: "ffffff" # Default foreground
-#base06: "ffffff" # Light foreground
-#base07: "ffffff" # Light background
-#base08: "ffffff" # Variables
-#base09: "ff688c" # Integers and Boolean
-#base0A: "dba3ff" # Classes
-#base0B: "00e012" # Strings
-#base0C: "ff688c" # Regex and Escape Characters
-#base0D: "87b1ff" # Functions
-#base0E: "ff9a00" # Keywords
-#base0F: "ffffff" # HTML tags
-
-base00: "202020" # Background #
-base01: "ffffff" # Not used? #
-base02: "ffffff" # Regular Python text #
-base03: "fff951" # Comments
-base04: "fff951" # Comments #
-base05: "000000" # Highlight Color #
-base06: "000000" # Sign Column #
-base07: "000000" # Terminal symbols and background #
-base08: "ff9a00" # Variables
-base09: "ff688c" # Integers and Boolean
-base0A: "87b1ff" # Classes
-base0B: "00e012" # Strings
-base0C: "00e012" # Regex and Escape Characters
-base0D: "87b1ff" # Functions
-base0E: "ff9a00" # Keywords
-base0F: "ffffff" # Not used? #
+base00: "202020" # Unknown use (black)
+base01: "202020" # Unknown use (black)
+base02: "f0f0f0" # Regular Python text (white)
+base03: "202020" # Unknown use (white)
+base04: "fff951" # Comments (yellow)
+base05: "4c4c4c" # Highlight color (light gray)
+base06: "303030" # SignColumn and fold color (light gray)
+base07: "101010" # Terminal background (black)
+base08: "ff9a00" # Keywords (orange)
+base09: "ff688c" # Integers and boolean (magenta)
+base0A: "fff951" # Types (yellow)
+base0B: "4ece5b" # Strings (green)
+base0C: "42d9f4" # Regex and escape characters (cyan)
+base0D: "87b1ff" # Functions and classes (blue)
+base0E: "ff688c" # Keywords (magenta)
+base0F: "f0f0f0" # Unknown use (white)
