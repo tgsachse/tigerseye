@@ -1,0 +1,37 @@
+# tigerseye scheme for Base16 Builder
+# By Tiger Sachse
+scheme: "tigerseye"
+author: "Tiger Sachse (github.com/tgsachse)"
+#base00: "202020" # Background
+#base01: "303030" # Lighter background
+#base02: "404040" # Selection background
+#base03: "fff951" # Comments
+#base04: "ffffff" # Dark foreground
+#base05: "ffffff" # Default foreground
+#base06: "ffffff" # Light foreground
+#base07: "ffffff" # Light background
+#base08: "ffffff" # Variables
+#base09: "ff688c" # Integers and Boolean
+#base0A: "dba3ff" # Classes
+#base0B: "00e012" # Strings
+#base0C: "ff688c" # Regex and Escape Characters
+#base0D: "87b1ff" # Functions
+#base0E: "ff9a00" # Keywords
+#base0F: "ffffff" # HTML tags
+
+base00: "202020" # Background #
+base01: "ffffff" # Not used? #
+base02: "ffffff" # Regular Python text #
+base03: "fff951" # Comments
+base04: "ffffff" # Comments #
+base05: "000000" # Highlight Color #
+base06: "000000" # Sign Column #
+base07: "000000" # Terminal symbols and background #
+base08: "ff9a00" # Variables
+base09: "ff688c" # Integers and Boolean
+base0A: "87b1ff" # Classes
+base0B: "00e012" # Strings
+base0C: "00e012" # Regex and Escape Characters
+base0D: "87b1ff" # Functions
+base0E: "ff9a00" # Keywords
+base0F: "ffffff" # Not used? #
