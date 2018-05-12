@@ -23,7 +23,7 @@ base00: "202020" # Background #
 base01: "ffffff" # Not used? #
 base02: "ffffff" # Regular Python text #
 base03: "fff951" # Comments
-base04: "ffffff" # Comments #
+base04: "fff951" # Comments #
 base05: "000000" # Highlight Color #
 base06: "000000" # Sign Column #
 base07: "000000" # Terminal symbols and background #
