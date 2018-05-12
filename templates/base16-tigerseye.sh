@@ -25,7 +25,7 @@ color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="10/10/10" # Base 07 - Bright White
+color15="20/20/20" # Base 07 - Bright White
 color16="ff/68/8c" # Base 09
 color17="f0/f0/f0" # Base 0F
 color18="20/20/20" # Base 01
@@ -33,7 +33,7 @@ color19="f0/f0/f0" # Base 02
 color20="ff/f9/51" # Base 04
 color21="30/30/30" # Base 06
 color_foreground="f0/f0/f0" # Base 02
-color_background="10/10/10" # Base 07
+color_background="20/20/20" # Base 07
 color_cursor="f0/f0/f0" # Base 02
 
 if [ -n "$TMUX" ]; then
@@ -86,12 +86,12 @@ printf $printf_template 21 $color21
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
   printf $printf_template_custom Pg f0f0f0 # forground
-  printf $printf_template_custom Ph 101010 # background
+  printf $printf_template_custom Ph 202020 # background
   printf $printf_template_custom Pi f0f0f0 # bold color
   printf $printf_template_custom Pj 4c4c4c # selection color
   printf $printf_template_custom Pk f0f0f0 # selected text color
   printf $printf_template_custom Pl f0f0f0 # cursor
-  printf $printf_template_custom Pm 101010 # cursor text
+  printf $printf_template_custom Pm 202020 # cursor text
 else
   printf $printf_template_var 10 $color_foreground
   printf $printf_template_var 11 $color_background
